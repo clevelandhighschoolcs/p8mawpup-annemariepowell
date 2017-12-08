@@ -24,7 +24,7 @@ print yui_3_18_1_1_1511302438096_2677
 
 # Type this in Command Prompt
 python
->>>import urllib2
+import urllib2
 from bs4 import BeautifulSoup
 quote_page = 'https://www.zillow.com/home-values/'
 page = urllib2.urlopen(quote_page)
