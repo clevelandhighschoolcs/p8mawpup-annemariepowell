@@ -23,11 +23,11 @@ yui_3_18_1_1_1511302438096_2677 = yui_3_18_1_1_1511302438096_2677_box.text.strip
 print yui_3_18_1_1_1511302438096_2677
 
 # Type this in Command Prompt
-python
-import urllib2
-from bs4 import BeautifulSoup
-quote_page = 'https://www.zillow.com/home-values/'
-page = urllib2.urlopen(quote_page)
-soup = BeautifulSoup(page, 'html.parser')
-name_box = soup.find(h1', attrs={'class':'name})
-name = name_box.text.strip()
+first type python
+then type import urllib2
+then type from bs4 import BeautifulSoup
+then type quote_page = 'https://www.zillow.com/home-values/'
+then type page = urllib2.urlopen(quote_page)
+then type soup = BeautifulSoup(page, 'html.parser')
+then type name_box = soup.find(h1', attrs={'class':'name})
+then type name = name_box.text.strip()
