@@ -3,10 +3,10 @@ import requests
 from twilio.rest import Client
 
 url = 'https://postmates.com/los-angeles'
-account_sid = 'AC410e90a5bcf3c4c14b5d44fb0eabbe3c'
-auth_token = 'c899d714f2571eed9c85adec81891efe'
-twilio_phone_number = '+19712051024'
-my_phone_number = '+15036074449'
+account_sid = '***'
+auth_token = '***'
+twilio_phone_number = '+1***'
+my_phone_number = '+1***'
 
 webpage = requests.get(url)
 soup = BeautifulSoup(webpage.text, 'html.parser')
